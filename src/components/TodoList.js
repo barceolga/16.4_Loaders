@@ -1,7 +1,7 @@
 import React from 'react';
 import {array} from 'prop-types';
 import Todo from './Todo.js';
-import style from './TodoList.css';
+import style from './TodoList.scss';
 
 const TodoList = props => {
 
