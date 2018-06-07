@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+.Title {
+  h1 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #000066;
+    background-color: #ffe6b3;
+    text-shadow: 2.25px 2.25px #ffaa00;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    }
+  p {
+     background-color: #ccccff;
+     font-size: 25px;
+     font-weight: 400;
+     text-shadow: 1.25px 1.25px #000066;
+     color: #ffa366;
+     text-align: center;
+     padding: 15px;
+     border-radius: 10px;
+     span {
+       font-size: 25px;
+       font-weight: 600;
+       text-align: center;
+       text-shadow: 1.25px 1.25px #ffa366;
+       color: #003399;
+     }
+   }
+}
