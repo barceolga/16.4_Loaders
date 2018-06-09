@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+.TodoForm {
+    div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      input {
+        background-color: #ccccff;
+        font-size: 25px;
+        font-weight: 400;
+        text-shadow: 1.25px 1.25px #000066;
+        color: #ffa366;
+        text-align: center;
+        padding: 15px;
+      }
+      button {
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        text-shadow: 1.25px 1.25px #ffa366;
+        color: #ffe6b3;
+        background-color: #003399;
+        padding: 15px;
+        border-radius: 10px;
+        transition: 1s ease-in-out;
+        cursor: pointer;
+        &:hover{
+          color: #003399;
+          background-color:  #ffe6b3;
+        }
+    }
+  }
+}
