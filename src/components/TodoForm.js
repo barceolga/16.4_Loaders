@@ -22,7 +22,7 @@ class TodoForm extends React.Component{
       console.log(event.target.name);
 
         this.setState({
-          [name]: value
+          text: value
         });
 
       console.log(event.target.value);
