@@ -52,12 +52,17 @@ class App extends React.Component {
         data: this.state.data.filter(item => item.id !== id)
       });
     }
-
+   removeAll = () => {
+     this.setState({
+       data: []
+     });
+   }
     render() {
       return (
         <div className={style.TodoApp}>
             <TodoForm addTodo={this.addTodo}></TodoForm>
             <Title title="ToDo list App" number={this.state.data.length}></Title>
+            <div><button onClick = {() =>this.removeAll()}>Remove list</button></div>
             <TodoList list={this.state.data} removeItem={this.removeItem}></TodoList>
         </div>
       );
